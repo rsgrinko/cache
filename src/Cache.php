@@ -254,9 +254,6 @@
          */
         public static function getAge(string $name): ?int
         {
-            if (self::check($name)) {
-                return (time() - @filectime(self::$cacheDir . md5($name) . '.tmp'));
-            }
-            return null;
+            return (time() - @filectime(self::$cacheDir . md5($name) . '.tmp'));
         }
     }
