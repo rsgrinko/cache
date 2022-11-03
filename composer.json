@@ -1,0 +1,18 @@
+{
+    "name": "rsgrinko/cache",
+    "description": "Cache library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rsgrinko\\Cache\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rsgrinko",
+            "email": "rsgrinko@gmail.com"
+        }
+    ],
+    "require": {}
+}
